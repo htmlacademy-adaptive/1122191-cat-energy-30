@@ -9,29 +9,27 @@
   </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo logo logo--image" href="index.html" aria-current="page">
-        <img class="logo__logo-image" src="#" width="33" height="38" alt="Кэт энерджи.">
-      </a>
-      <a class="main-header__logo logo logo--text" href="index.html" aria-current="page">
-        <img class="logo__logo-text" src="#" width="101" height="18" alt="Кэт энерджи.">
+      <a class="main-header__logo logo" href="index.html" aria-current="page">
+        <img class="logo__image logo__image--icon" src="#" width="33" height="38" alt="Кэт энерджи.">
+        <img class="logo__image logo__image--text" src="#" width="101" height="18" alt="Кэт энерджи.">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
+        <button class="main-nav__toggle button-toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--current">
-            <a class="main-nav__link main-nav__link--current" href="index.html" aria-current="page">
+            <a class="site-list__link site-list__link--current" href="index.html" aria-current="page">
               Главная
             </a>
           </li>
           <li class="site-list__item">
-            <a class="main-nav__link" href="catalog.html">
+            <a class="site-list__link" href="catalog.html">
               Каталог продукции
             </a>
           </li>
           <li class="site-list__item">
-            <a class="main-nav__link" href="form.html">
+            <a class="site-list__link" href="form.html">
               Подбор программы
             </a>
           </li>
@@ -40,11 +38,11 @@
     </header>
     <main class="main-container">
       <h1 class="visually-hidden">Кэт энерджи</h1>
-      <section class="promo">
-        <div class="promo__wrapper">
-          <h2 class="promo__title">Функциональное питание для котов</h2>
-          <p class="promo__slogan">Занялся собой? Займись котом!</p>
-          <a class="promo__link button button--primery" href="form.html">
+      <section class="intro">
+        <div class="intro__wrapper">
+          <h2 class="intro__title">Функциональное питание для котов</h2>
+          <p class="intro__slogan">Занялся собой? Займись котом!</p>
+          <a class="intro__link button button--primery" href="form.html">
             Подбор программы
           </a>
         </div>
@@ -98,7 +96,7 @@
               <p class="example__text">Затрачено времени</p>
             </li>
           </ul>
-          <p class="example__price">Затраты на питание: 15 000 РУБ.</p>
+          <p class="example__price"><span>Затраты на питание:</span><span>15 000 РУБ.</span></p>
           <div class="example__image">
             <img class="example__image-cat" src="#" width="280" height="256" alt="Картинка кота до">
           </div>
@@ -118,8 +116,8 @@
     </main>
     <footer class="main-footer">
       <div class="main-footer__wrapper">
-        <a class="main-footer__logo" href="#">
-          <img class="main-footer__logo-text" src="#" width="128" height="24" alt="Кэт энерджи.">
+        <a class="main-footer__logo logo" href="#">
+          <img class=" logo__image logo__image--text" src="#" width="128" height="24" alt="Кэт энерджи.">
         </a>
         <section class="main-footer__social social">
           <h2 class="visually-hidden">Ссылки на социальные сети</h2>
@@ -135,9 +133,9 @@
             </li>
           </ul>
         </section>
-        <a class="main-footer__copyright" href="https://htmlacademy.ru/intensive/adaptive">
+        <a class="main-footer__copyright copyright" href="https://htmlacademy.ru/intensive/adaptive">
           <span>HTML Academy</span>
-          <img class="" src="#" alt="Logo HTML-academy">
+          <img class="copyright__image" src="#" alt="Logo HTML-academy">
         </a>
       </div>
     </footer>
