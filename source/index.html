@@ -5,13 +5,27 @@
     <title>Кэт энерджи</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicons/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <script src="scripts/index.js" defer></script>
   </head>
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo logo" href="index.html" aria-current="page">
-        <img class="logo__image logo__image--icon" src="#" width="33" height="38" alt="Кэт энерджи.">
-        <img class="logo__image logo__image--text" src="#" width="101" height="18" alt="Кэт энерджи.">
+        <picture>
+          <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-image-desktop.svg" width="70" height="59">
+          <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-image-tablet.svg" width="60" height="50">
+          <img class="logo__image logo__image--icon" src="images/logo-image-mobile.svg" width="33" height="38" alt="Кэт энерджи.">
+        </picture>
+      </a>
+      <a class="main-header__logo logo" href="index.html" aria-current="page">
+        <picture>
+          <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg" width="118" height="21">
+          <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-text-tablet.svg" width="101" height="18">
+          <img class="logo__image logo__image--text" src="images/logo-text-mobile.svg" width="101" height="18" alt="Кэт энерджи.">
+        </picture>
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle button-toggle" type="button">
@@ -42,6 +56,11 @@
         <div class="intro__wrapper">
           <h2 class="intro__title">Функциональное питание для котов</h2>
           <p class="intro__slogan">Занялся собой? Займись котом!</p>
+          <picture>
+            <source type="image/png" media="(min-width: 1440px)" srcset="images/cat-energy-index-desktop@1x.png 1x, images/cat-energy-index-desktop@2x.png 2x" width="552" height="499">
+            <source type="image/png" media="(min-width: 768px)" srcset="images/cat-energy-index-tablet@1x.png 1x, images/cat-energy-index-tablet@2x.png 2x" width="709" height="609">
+            <img src="images/cat-energy-index-mobile@1x.png" srcset="images/cat-energy-index-mobile@2x.png 2x" width="280" height="270" alt="Кэт энерджи.">
+          </picture>
           <a class="intro__link button button--primery" href="form.html">
             Подбор программы
           </a>
@@ -98,10 +117,18 @@
           </ul>
           <p class="example__price"><span>Затраты на питание:</span><span>15 000 РУБ.</span></p>
           <div class="example__image">
-            <img class="example__image-cat" src="#" width="280" height="256" alt="Картинка кота до">
+            <picture>
+              <source type="image/png" media="(min-width: 1440px)" srcset="images/cat-fat-desktop@1x.png 1x, images/cat-fat-desktop@2x.png 2x" width="560" height="512">
+              <source type="image/png" media="(min-width: 768px)" srcset="images/cat-fat-tablet@1x.png 1x, images/cat-fat-tablet@2x.png 2x" width="560" height="512">
+              <img class="example__image-cat" src="images/cat-fat-mobile@1x.png" srcset="images/cat-fat-mobile@2x.png 2x" width="280" height="256" alt="Картинка кота до">
+            </picture>
           </div>
           <div class="example__image">
-            <img class="example__image-cat" src="#" width="280" height="256" alt="Картинка кота после">
+            <picture>
+              <source type="image/png" media="(min-width: 1440px)" srcset="images/cat-skinny-desktop@1x.png 1x, images/cat-skinny-desktop@2x.png 2x" width="560" height="512">
+              <source type="image/png" media="(min-width: 768px)" srcset="images/cat-skinny-tablet@1x.png 1x, images/cat-skinny-tablet@2x.png 2x" width="560" height="512">
+              <img class="example__image-cat" src="images/cat-skinny-mobile@1x.png" srcset="images/cat-skinny-mobile@2x.png 2x" width="280" height="256" alt="Картинка кота после">
+            </picture>
           </div>
         </div>
       </section>
@@ -110,14 +137,22 @@
           <h2 class="visually-hidden">Контакты</h2>
           <p class="contacts__title">Приглашаем к сотрудничеству дилеров!</p>
           <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-          <img class="contacts__map" src="#" width="320" height="362" alt="Карта местоположения">
+          <picture>
+            <source type="image/png" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x" width="1440" height="480">
+            <source type="image/png" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x" width="768" height="480">
+            <img class="contacts__map" src="images/map-mobile@1x.png" srcset="images/map-mobile@2x.png 2x" width="320" height="362" alt="Карта местоположения">
+          </picture>
         </div>
       </section>
     </main>
     <footer class="main-footer">
       <div class="main-footer__wrapper">
-        <a class="main-footer__logo logo" href="#">
-          <img class=" logo__image logo__image--text" src="#" width="128" height="24" alt="Кэт энерджи.">
+        <a class="main-footer__logo logo" href="index.html" aria-current="page">
+          <picture>
+            <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg" width="128" height="24">
+            <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-text-tablet.svg" width="128" height="24">
+            <img class="logo__image logo__image--text" src="images/logo-text-mobile.svg" width="128" height="24" alt="Кэт энерджи.">
+          </picture>
         </a>
         <section class="main-footer__social social">
           <h2 class="visually-hidden">Ссылки на социальные сети</h2>
