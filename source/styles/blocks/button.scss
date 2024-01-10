@@ -1,6 +1,6 @@
 .button {
   font-family: $primary-font;
-  background-color: #68B738;
+  background-color: #68b738;
   color: #ffffff;
   padding: 10px 44px;
   text-align: center;
@@ -14,6 +14,7 @@
 
 .button--primery {
   border: 0;
+
   &:hover {
     background-color: #5eaa2f;
   }
@@ -43,5 +44,4 @@
   &:active {
     background-color: #ebebeb;
   }
-
 }
