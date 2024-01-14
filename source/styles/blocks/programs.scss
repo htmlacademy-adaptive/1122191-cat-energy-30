@@ -53,7 +53,7 @@
   color: rgb(0, 0, 0, 0.6);
 }
 
-programs__link:active {
+.programs__link:active {
   color: rgb(0, 0, 0, 0.3);
 }
 
@@ -75,6 +75,6 @@ programs__link:active {
   background-color: rgb(0, 0, 0, 0.6);
 }
 
-programs__link::after:active {
+.programs__link::after:active {
   background-color: rgb(0, 0, 0, 0.3);
 }
