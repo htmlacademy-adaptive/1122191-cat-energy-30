@@ -3,7 +3,19 @@
 }
 
 .offer__wrapper {
-  background: rgba(104, 183, 56, 0.85);
+  width: 280px;
+  height: 290px;
+  background-image: url(../../images/promo-mobile.jpg);
+}
+
+.offer__wrapper::before {
+  display: block;
+  content: "";
+  width: 78px;
+  height: 80px;
+  background-image: url("../../images/icons/stack.svg#gift");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .offer__text {
