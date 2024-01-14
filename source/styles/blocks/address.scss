@@ -32,3 +32,17 @@
   line-height: 18px;
   text-transform: uppercase;
 }
+
+.address__input--email {
+  display: block;
+  content: "";
+  background-image: url("../../images/icons/stack.svg#email");
+  background-repeat: no-repeat;
+}
+
+.address__input--telephone {
+  display: block;
+  content: "";
+  background-image: url("../../images/icons/stack.svg#phone");
+  background-repeat: no-repeat;
+}

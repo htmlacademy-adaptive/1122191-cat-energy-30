@@ -21,11 +21,7 @@
         </picture>
       </a>
       <a class="main-header__logo logo" href="index.html" aria-current="page">
-        <picture>
-          <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg" width="118" height="21">
-          <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-text-tablet.svg" width="101" height="18">
-          <img class="logo__image logo__image--text" src="images/logo-text-mobile.svg" width="101" height="18" alt="Кэт энерджи.">
-        </picture>
+        <img class="logo__image logo__image--text" src="images/logo-text-mobile.svg" width="101" height="18" alt="Кэт энерджи.">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle button-toggle" type="button">
@@ -102,11 +98,11 @@
           <ul class="address__list">
             <li class="address__item">
               <label class="address__label" for="address-name">E-mail:*</label>
-              <input class="address__input" placeholder="кuklachev@gmail.com" type="email" name="address-name" id="address-name" required>
+              <input class="address__input address__input--email" placeholder="кuklachev@gmail.com" type="email" name="address-name" id="address-name" required>
             </li>
             <li class="address__item">
               <label class="address__label" for="address-telephone">Телефон:*</label>
-              <input class="address__input" placeholder="8 (960) 900-60-90" type="email" name="address-telephone" id="address-telephone" required>
+              <input class="address__input address__input--telephone" placeholder="8 (960) 900-60-90" type="tel" name="address-telephone" id="address-telephone" required>
             </li>
           </ul>
         </fieldset>
@@ -166,30 +162,34 @@
     <footer class="main-footer">
       <div class="main-footer__wrapper">
         <a class="main-footer__logo logo" href="index.html" aria-current="page">
-          <picture>
-            <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg" width="128" height="24">
-            <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-text-tablet.svg" width="128" height="24">
-            <img class="logo__image logo__image--text" src="images/logo-text-mobile.svg" width="128" height="24" alt="Кэт энерджи.">
-          </picture>
+          <img class="logo__image logo__image--text" src="images/logo-text-mobile.svg" width="128" height="24" alt="Кэт энерджи.">
         </a>
         <section class="main-footer__social social">
           <h2 class="visually-hidden">Ссылки на социальные сети</h2>
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">в Вконтакте</span>
+              </a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">Мы в Ютубе</span>
+              </a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+              <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">Мы в Телеграме</span>
+              </a>
             </li>
           </ul>
         </section>
-        <a class="main-footer__copyright copyright" href="https://htmlacademy.ru/intensive/adaptive">
-          <span>HTML Academy</span>
-          <img class="copyright__image" src="#" width="27" height="34" alt="Logo HTML-academy">
-        </a>
+        <div class="main-footer__copyright copyright">
+          <a class="copyright__text" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="copyright__image" href="https://htmlacademy.ru/intensive/adaptive">
+            <span class="visually-hidden">Логотип HTML Academy</span>
+          </a>
+        </div>
       </div>
     </footer>
   </body>
