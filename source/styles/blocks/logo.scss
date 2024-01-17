@@ -1,5 +1,19 @@
 .logo {
-  //
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo {
+    gap: 13px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo {
+    gap: 14px;
+  }
 }
 
 .logo__image {
