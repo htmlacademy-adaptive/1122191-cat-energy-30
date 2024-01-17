@@ -1,25 +1,21 @@
 .main-nav {
-  //
+  display: none;
 }
 
-.main-nav__toggle {
-  width: 24px;
-  height: 24px;
-  background-image: url("../../images/icons/stack.svg#button_mobile");
-  background-repeat: no-repeat;
-  border: none;
-  background-color: #ffffff;
+@media (min-width: $tablet-width) {
+  .main-nav {
+    display: block;
+  }
 }
 
-.main-nav__toggle:active {
-  width: 18px;
-  height: 18px;
-  background-image: url("../../images/icons/stack.svg#close");
-  background-repeat: no-repeat;
-  border: none;
-  background-color: #ffffff;
+@media (min-width: $desktop-width) {
+  .main-nav {
+    display: block;
+  }
 }
 
 .main-nav__list {
-  //
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

@@ -3,5 +3,19 @@
 }
 
 .page__body {
-  //
+  width: 280px;
+  margin: 0 auto;
 }
+
+@media (min-width: $tablet-width) {
+ .page__body {
+  width: 708px;
+ }
+}
+
+@media (min-width: $desktop-width) {
+  .page__body {
+  width: 1220px;
+  }
+}
+
